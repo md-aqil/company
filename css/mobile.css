@@ -187,7 +187,14 @@ background: none;
     left: 50px;
     width: 300px;
 }
-
-
+.heading {
+    font-size: 28px;
+}
+.navbar.navbar-default.navbar-fixed-top {
+  position: static;
+}
+.shape-fill.shape-fill-1 {
+  display: none;
+}
 }/*media*/
 
