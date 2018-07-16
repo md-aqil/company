@@ -181,6 +181,13 @@ background: none;
       margin-bottom: -60px;
 }
 
+#textHolder {
+    position: absolute;
+    top: 39px;
+    left: 50px;
+    width: 300px;
+}
+
 
 }/*media*/
 
