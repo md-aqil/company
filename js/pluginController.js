@@ -126,8 +126,8 @@ var p1 = new TimelineMax({ repeat: -1});
      TweenMax.from('.st21', 1, { rotation: -8, yoyo:true, repeat:-1,delay:1 });
 
 
-     TweenMax.from('.d_reye', 1, {  scaleY: 0, yoyo:true, repeat:-1, transformOrigin: 'center center'},10);
-     TweenMax.from('.d_reye2', 1, {  scaleY: 0, yoyo:true, repeat:-1, transformOrigin: 'center center'},10);
+     // TweenMax.from('.d_reye', 1, {  scaleY: 0, yoyo:true, repeat:-1, transformOrigin: 'center center'});
+     // TweenMax.from('.d_reye2', 1, {  scaleY: 0, yoyo:true, repeat:-1, transformOrigin: 'center center'});
 
 
 
