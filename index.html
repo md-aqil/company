@@ -1163,13 +1163,31 @@
         <div class="container">
           <div class="row">
             
-             <div class="col-md-6">
+             <div class="col-md-6 por">
               <h1 class="heading"><span class="link-hover">Development</span></h1>
 
               <p class="subheading">Our Hackers (programmers), spend days and nights hacking and writing lines of code that help us give you a product with strong backbone using modern technologies.</p>
             </div>
-            <div class="col-md-6">
-              <img class="img-responsive development" src="img/Development2.svg" alt="">
+
+
+            <div class="col-md-6 por">
+              <div class="development-div">
+              <img class="img-responsive development inline-svg" src="img/Development.svg" alt="">
+
+             <div id="textHolder">
+              <div id="txt" style="color:#fff;">
+               
+                    $.fn.<span style="color:#27ff00">isInViewport</span> = <span style="color:#ffb226">function</span>() {
+                       if(!offset) <span style="color:#e00000">return;</span>
+                       var elementTop = offset.top; <br>
+                       var elementBottom = elementTop + $(this).outerHeight();<br>
+                   };
+              
+             
+           
+               </div>
+           
+            </div>
             </div>
           </div>
         </div>
@@ -1276,6 +1294,8 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+  <script src="js/SplitText.min.js"></script>
+  <script src="js/drowSVG.js"></script>
   <script src="js/inlineSvg.js"></script>
   <script src="js/jquery.html-svg-connect.js"></script>
 <script src="js/jquery.wavify.js"></script>
@@ -1303,9 +1323,9 @@
           { start: ".planing", end: ".moc" },
 
 
-          { start: ".moc", end: ".development" },
+          { start: ".moc", end: ".development-div" },
 
-          { start: ".development", end: ".testing" },
+          { start: ".development-div", end: ".testing" },
           
           { start: ".testing", end: ".ment" }
         ]

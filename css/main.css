@@ -643,3 +643,14 @@ p {
       font-size: 16px;
       color: #6f6f6f;
 }
+
+
+#textHolder {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  width: 400px;
+}
+#txt {float:left;
+line-height: 2;
+}

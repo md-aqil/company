@@ -105,3 +105,11 @@ var p1 = new TimelineMax({ repeat: -1});
 
    web.staggerFrom('.st44', 5, {drawSVG:"0%"},  0.2)
 
+
+
+   var tl =  new TimelineMax({repeat:-1});
+   mySplitText = new SplitText("#txt", {type:"words,chars"}), 
+   chars = mySplitText.chars;
+   tl.staggerFrom(chars,0.01, {opacity:0, ease:Power1.easeIn}, 0.08, "+=0.1");
+
+    tl.timeScale(1);
