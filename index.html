@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/mobile.css">
   <title>Aqil</title>
-
-
+  <script src="js/inlineSvg.js"></script>
+<script>  
+  $('img.inline-svg').inlineSvg();
+</script>
 
 
 
@@ -875,190 +877,65 @@
         
         </div>
           
-         <div id="carousel-example-generic" class="carousel carousel-fade mb100" data-ride="carousel">
+       <main>
+         <section class="slides">
+           <section class="slides-nav">
+             <nav class="slides-nav__nav">
+               <button class="slides-nav__prev js-prev">Prev</button>
+               <button class="slides-nav__next js-next">Next</button>
+             </nav>
+           </section>
 
-           <!-- Wrapper for slides -->
-           <div class="carousel-inner">
-
-            <div class="item active">
-             
-              <div class="col-sm-6 ">
-                <div class="carousel-caption animated fadeInLeft">
-                    <h2 class="animated">Bigly.io</h2>
-                    <p>
-                    <b>Find Products to Sell Online without Purchasing in Advance.</b><br>
-                     
-                      A Platform where online reseller or e-tailer can find thousands of products to sell online on multiple platforms like your Facebook, WhatsApp, E-commerce Store and Online Marketplaces. 
-                      without Purchasing in Advance.
-                    </p>
-                    <a href="https://www.bigly.io/" class="btn btn-theme">Visit Site</a>
-                </div>
-              </div>
-
-               <div class="col-sm-6 por" style="padding-bottom: 20px;">
-                <div class="pers">
-                  <img class="slider-img" src="img/Chrome-Browser-Mockup-Free.jpg" alt="...">
-                  <div class="screen-1">
-                    
-                  <img class="screen-slider2" style="width: 100%" src="img/bigly-full.jpg" alt="">
-                </div>
-               
-                </div>
-              </div>
-            </div>
-
-
-              <div class="item ">
-             
-              <div class="col-sm-6 ">
-                <div class="carousel-caption animated fadeInLeft">
-                    <h2 class="animated">BiglyDropship</h2>
-
-                    <p> A Platform where online reseller or e-tailer can find thousands of products to sell online on multiple platforms like your Facebook, WhatsApp, E-commerce Store and Online Marketplaces. 
-                      without Purchasing in Advance.</p>
-                    <a href="http://dropship.bigly.io/" class="btn btn-theme">Visit Site</a>
-                </div>
-              </div>
-               <div class="col-sm-6 por" style="padding-bottom: 20px;">
-               
-               <img class="animated fadeInRight slider-img" src="img/lapi-mockup.png" alt="...">
-              </div>
-            </div>
-
-            
-            <div class="item ">
-             
-              <div class="col-sm-6 ">
-                <div class="carousel-caption animated fadeInLeft">
-                    <h2 class="animated">Edunuts</h2>
-
-                    <p> <b>Don’t Know Your Next Educational Move?</b> <br>Let us help you!</p><br>
-
-                    <a href="http://www.edunuts.com" class="btn btn-theme">Visit Site</a>
-                </div>
-              </div>
-               <div class="col-sm-6 por" style="padding-bottom: 20px;">
-                <img class="animated fadeInRight slider-img" src="img/lapi-mockup-edunuts.png" alt="...">
-              </div>
-            </div>
-
-
-           
-            <div class="item">
-             
-              <div class="col-sm-6 ">
-                <div class="carousel-caption animated fadeInLeft">
-                    <h2 class="animated">BigRadar.io</h2>
-
-                    <p>
-                      <b>Most effective  live chat software  for landing pages</b> <br>
-                      44% of users are more like to start a conversation with you if they see a personalized message based on their behaviors. We don't think you need another reason for this feature
-
-
-                    </p>
-                    <a href="http://bigradar.io" class="btn btn-theme">Visit Site</a>
-                </div>
-              </div>
-               <div class="col-sm-6 por" style="padding-bottom: 20px;">
-                <div class="pers">
-                  <img class="slider-img" src="img/Chrome-Browser-Mockup-Free.jpg" alt="...">
-                  <div class="screen-1">
-                    
-                  <img class="screen-slider2" style="width: 100%" src="img/bigradar-screen.jpg" alt="">
-                </div>
-               
-                </div>
-              </div>
-            </div>
-              <div class="item">
-             
-              <div class="col-sm-6 ">
-                <div class="carousel-caption animated fadeInLeft">
-                    <h2 class="animated">DMA-delhi</h2>
-
-                    <p>
-                      <b>Digital Marketing Program, Become Job Ready.Learn by Doing.</b> <br>
-                      Gain real-world experience running live campaigns as you learn from top experts in the field. Launch your career with a 360-degree understanding of Digital Marketing.
-                    </p>
-                    <button class="btn btn-theme">Go to link</button>
-                </div>
-              </div>
-               <div class="col-sm-6 por" style="padding-bottom: 20px;">
-                <div class="pers">
-                  <img class="slider-img" src="img/Chrome-Browser-Mockup-Free.jpg" alt="...">
-                  <div class="screen-1">
-                    
-                  <img class="screen-slider2" style="width: 100%" src="img/dma.jpg" alt="">
-                </div>
-               
-                </div>
-              </div>
-            </div>
-             
-            
-
-             <div class="item">
-              
-               <div class="col-sm-6 ">
-                 <div class="carousel-caption animated fadeInLeft">
-                     <h2 class="animated">BiglyApp</h2>
-
-                     <p>
-                      Bigly App is a Social Selling App for E-tailers/Resellers to earn money online by working from home. Working with Bigly is very easy. Resellers can find products listed on Bigly App, Share them on Facebook and Whatsapp, and can Earn money by selling them.
-
-                     </p>
-                     <button class="btn btn-theme">Go to link</button>
+           <section class="slide is-active">
+             <div class="slide__content">
+               <figure class="slide__figure">
+                 <div class="slide__img lapi-mockup" >
+                   <!-- <img src="img/tdm-mockup-intro.png" alt=""> -->
+                    <div class="animate-mockup ">
+                      <img class="screen-slider2" style="width: 100%" src="img/bigly-full.jpg" alt="">
+                    </div>
                  </div>
-               </div>
-                <div class="col-sm-6 ">
-                 <img class="animated fadeInRight slider-img" src="img/mobile-app.png" alt="...">
-               </div>
+               </figure>
+               <header class="slide__header">
+                 <h2 class="slide__title"> <span class="title-line"><span>Slicey Transition Slider</span></span> <span class="title-line"><span>This is slide 1</span></span> </h2>
+               </header>
+               <div class="color-layer" style="background: linear-gradient(135deg,#f9a18b, #ffd196);"></div>
              </div>
+           </section>
 
-           </div>
-          <!--  <div class="controllers">
-               <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev" style="left: -40px;
-       transform: rotate(180deg);
-       transform-origin: 0px 17px;">
-                 <img width="25" src="img/right-arrow.svg" alt="">
-                
-               </a>
-               <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                  <img width="25" src="img/right-arrow.svg" alt="">
-                
-               </a>
-           </div> -->
-         <ul class="list-inline cara-thumbnail carousel-indicators">
-           <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
-             <img src="img/thumb-bigly.jpg">
-             <span>Bigly.io</span>
-           </li>
-           <li data-target="#carousel-example-generic" data-slide-to="1">
-             <img src="http://placehold.it/1200x500" alt="...">
-              <span>BiglyDropship</span>
-           </li>
-            <li data-target="#carousel-example-generic" data-slide-to="2">
-             <img src="http://placehold.it/1200x500" alt="...">
-              <span>Edunuts</span>
-           </li> 
-           <li data-target="#carousel-example-generic" data-slide-to="3">
-             <img src="http://placehold.it/1200x500" alt="...">
-              <span>BigRadar.io</span>
-           </li>
-            <li data-target="#carousel-example-generic" data-slide-to="4">
-             <img src="http://placehold.it/1200x500" alt="...">
-              <span>DMA-delhi</span>
-           </li>
-            <li data-target="#carousel-example-generic" data-slide-to="5">
-             <img src="http://placehold.it/1200x500" alt="...">
-              <span>BiglyApp</span>
-           </li>
-          
-         </ul>
-          
-          <p><a href="all-work.html" style="font-size: 17px;">View All Work</a></p>
-         </div>
+             <section class="slide">
+             <div class="slide__content">
+               <figure class="slide__figure">
+                 <div class="slide__img lapi-mockup" >
+                   <!-- <img src="img/tdm-mockup-intro.png" alt=""> -->
+                    <div class="animate-mockup ">
+                      <img class="screen-slider2" style="width: 100%" src="img/bigly-full.jpg" alt="">
+                    </div>
+                 </div>
+               </figure>
+               <header class="slide__header">
 
+                 <h2 class="slide__title"> 
+                  <span class="title-line">
+                    <span>Slicey Transition Slider</span></span> 
+                    <span class="title-line">
+                      <span>This is slide 1</span></span>
+
+                         <span class="title-line">
+                      <span>
+                        <a href="https://www.bigly.io/" class="btn btn-theme inslide">Visit Site</a>
+                      </span></span>
+
+                </h2>
+
+               </header>
+               <div class="color-layer" style="background: red"></div>
+             </div>
+           </section>
+           
+          
+         </section>
+       </main>
       </div>
     </div>
    
@@ -1609,7 +1486,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
   <script src="js/SplitText.min.js"></script>
   <script src="js/drowSVG.js"></script>
-  <script src="js/inlineSvg.js"></script>
+
   <script src="js/jquery.html-svg-connect.js"></script>
 <script src="js/jquery.wavify.js"></script>
   <script src="js/pluginController.js"></script>
@@ -1648,12 +1525,6 @@
 
 
   }
-
-
-
-
-
-      $('img.inline-svg').inlineSvg();
 
 </script>
 
