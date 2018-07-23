@@ -1120,7 +1120,6 @@ line-height: 2;
   
   .slider-background {
     border-radius: 3px;
-    background: red;
     position: absolute;
     top: 0;
     z-index: -1;

@@ -134,8 +134,10 @@ $(window).on('resize scroll', function() {
         enabled: true,
       },
 
-      pagination: {
+    
+       pagination: {
         el: '.swiper-pagination',
+        dynamicBullets: true,
         clickable: true,
       },
 
