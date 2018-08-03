@@ -9,35 +9,6 @@ $('.navbar-toggle').click(function() {
 
   new WOW().init();
 
-  if ($(window).width() > 479) {
-      // $(".box").inertiaScroll({
-      //    parent: $("#content")
-      //  });
-
-      $("#svgContainer").HTMLSVGconnect({
-        stroke: "#989898",
-        strokeWidth: 1,
-        orientation: "auto",
-
-
-
-        paths: [
-          { start: ".planing", end: ".moc" },
-
-
-          { start: ".moc", end: ".development-div" },
-
-          { start: ".development-div", end: ".testing" },
-          
-          { start: ".testing", end: ".ment" }
-        ]
-
-
-      });
-
-
-  }
-
 
 
 
